@@ -7,7 +7,7 @@ set CONFIGURATION=Debug
 
 echo "===== Generate ====="
 cmake.exe ^
--H%CURRENT%
+-H%CURRENT% ^
 -G "Visual Studio 17 2022" ^
 -A x64 ^
 -DCMAKE_BUILD_TYPE=%CONFIGURATION% ^
